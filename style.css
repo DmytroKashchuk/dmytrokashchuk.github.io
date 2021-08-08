@@ -2,9 +2,59 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.container{
+hr{
+    width: 48%;
+    float: left;
+}
 
+.container{
     width: 100%;
     height: 400px;
     margin: 0 auto;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 7%;
+    background-color: black;
+}
+
+.columns{
+    width: 100%;
+    height: auto;
+
+    float: left;
+    display: inline;
+}
+
+.col1_left{
+    width: 49%;
+    height: auto;
+    float: left;
+
+}
+
+.col1_left p{
+    text-align: right;
+    margin-right: 1em;;
+}
+
+.col2_rigth{
+    width: 49%;
+    height: auto;
+    float: left;
+
+}
+
+.col2_rigth p{
+    text-align: right;
+    margin-left: 1em;;
 }
