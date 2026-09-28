@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Personal Website
 
-You can use the [editor on GitHub](https://github.com/DmytroKashchuk/dmytrokashchuk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repository hosts the personal website for **Dmytro (Dima) Kashchuk** using GitHub Pages.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Structure
+- `index.html` — Main page, hand-written from `resume.md` content.
+- `style.css` — Light, monospace, single-column styling. No shadows, gradients or frameworks. Print styles included.
+- `script.js` — Dynamic year in the footer.
+- `resume.md` — Source resume content for future updates.
 
-### Markdown
+## Features
+- Semantic HTML with accessible landmarks and skip link.
+- Responsive single-column layout (date/content grid collapses on small screens).
+- Print-ready formatting for physical resume export.
+- Basic SEO & Open Graph tags.
+- Structured data (JSON-LD Person schema).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Update Workflow
+1. Edit `resume.md` as needed.
+2. Reflect changes manually in `index.html` (or build a script later to automate parsing Markdown → HTML).
+3. Commit and push to `main` to deploy via GitHub Pages.
 
-```markdown
-Syntax highlighted code block
+## Possible Enhancements
+- Automated Markdown → HTML build step (Node script or static site generator like Eleventy/Astro).
+- Add RSS feed for publications/posts.
+- Accessibility audit (axe / Lighthouse) and improvements.
+- Add analytics (privacy-friendly, e.g., Plausible).
+- Add a `/publications` subpage or filtering UI.
+- Contact form using a serverless endpoint.
 
-# Header 1
-## Header 2
-### Header 3
+## Local Preview
+Open `index.html` directly or serve:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+python3 -m http.server 8000
+# then visit http://localhost:8000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DmytroKashchuk/dmytrokashchuk.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## License
+Content © Dmytro Kashchuk. Code snippets under MIT unless noted otherwise.

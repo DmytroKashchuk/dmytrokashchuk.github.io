@@ -1,118 +1,219 @@
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-
-    <title>Dmytro Kashchuk</title>
-
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dmytro (Dima) Kashchuk</title>
+  <meta name="description" content="Enterprise security researcher. Web measurement at scale, systemic enterprise risk, software supply chain security. PhD student at the University of Tulsa.">
+  <link rel="canonical" href="https://dmytrokashchuk.github.io/">
+  <meta property="og:title" content="Dmytro (Dima) Kashchuk">
+  <meta property="og:description" content="Enterprise security researcher. Web measurement at scale, systemic enterprise risk, software supply chain security.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmytrokashchuk.github.io/">
+  <meta name="theme-color" content="#fbfbf9">
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="footer">
-
-    </div>
-
+  <header class="site-header" role="banner">
     <div class="container">
-        <h1>Dmytro Kashchuk</h1>
-        <h2>Web Developer</h2>
-        <h2>email: dmytro.kashchuk@studenti.unitn.it</h2>
+      <p class="prompt"><span class="user">dima@tulsa</span>:<span class="path">~</span>$ whoami</p>
+      <h1 class="name">Dmytro (Dima) Kashchuk</h1>
+      <p class="tagline">
+        <span>Enterprise Security Researcher</span>
+        <span class="sep">/</span>
+        <span>Software Supply Chain Security</span>
+        <span class="sep">/</span>
+        <span>PhD Student @ University of Tulsa</span><span class="cursor" aria-hidden="true"></span>
+      </p>
+
+      <ul class="links" aria-label="Contact and profiles">
+        <li><a href="mailto:dmytro-kashchuk@utulsa.edu">email</a></li>
+        <li><a href="https://github.com/DmytroKashchuk" target="_blank" rel="noopener">github</a></li>
+        <li><a href="https://scholar.google.com/citations?user=FnHJDDMAAAAJ&amp;hl=en" target="_blank" rel="noopener">scholar</a></li>
+        <li><a href="https://linkedin.com/in/dmytrokashchuk" target="_blank" rel="noopener">linkedin</a></li>
+        <li><a href="https://medium.com/@dmytrokashchuk" target="_blank" rel="noopener">medium</a></li>
+        <li><a href="https://app.hackthebox.com/users/387680" target="_blank" rel="noopener">hackthebox</a></li>
+      </ul>
+
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#now">now</a>
+        <a href="#about">about</a>
+        <a href="#education">education</a>
+        <a href="#publications">publications</a>
+        <a href="#experience">experience</a>
+        <a href="#projects">projects</a>
+        <a href="#skills">skills</a>
+        <a href="#misc">misc</a>
+      </nav>
     </div>
+  </header>
 
+  <main id="main" class="container" role="main">
 
+    <section id="now" class="section">
+      <h2>now</h2>
+      <ul class="plain">
+        <li><strong>Web Measurement at Scale</strong> — mapping misconfigurations and exposure across the public web</li>
+        <li><strong>Systemic Enterprise Risk</strong> — how small failures cascade into org-wide incidents</li>
+        <li><strong>Software Supply Chain Security</strong> — dependency risk, build integrity, SBOM adoption</li>
+      </ul>
+    </section>
+
+    <section id="about" class="section">
+      <h2>about</h2>
+      <p>I'm a PhD student in Cyber Security and Economics at the University of Tulsa. With a foundation in computer science, economics, and cybersecurity, I research large-scale vulnerability scanning and how to improve internet security practices.</p>
+    </section>
+
+    <section id="education" class="section">
+      <h2>education</h2>
+      <dl class="entries">
+        <dt>2024 – now</dt>
+        <dd>
+          <strong>Ph.D. in Cyber Security and Economics</strong>
+          <span class="org">University of Tulsa</span>
+          <span class="note">Focus: Software Bill of Materials (SBOM), large-scale vulnerability scanning, enterprise security</span>
+        </dd>
+
+        <dt>2020 – 2023</dt>
+        <dd>
+          <strong>M.S. in Computer Science and Cyber Security</strong>
+          <span class="org">University of Trento</span>
+          <span class="note">Track: ICT Innovation</span>
+        </dd>
+
+        <dt>2019</dt>
+        <dd>
+          <strong>B.S. in Information Engineering and Business Organization</strong>
+          <span class="org">University of Trento</span>
+        </dd>
+      </dl>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>publications</h2>
+      <ol class="pubs">
+        <li>
+          <p class="pub-title"><a href="https://tylermoore.utulsa.edu/scored25.pdf" target="_blank" rel="noopener">Measuring enterprise software supply chain security using public repositories</a></p>
+          <p class="pub-meta"><strong>Dmytro Kashchuk</strong>, Tyler Moore · ACM CCS 2025 — SCORED Workshop</p>
+          <p class="pub-abstract">Large-scale SBOM/CVE study of Forbes Global 2000 GitHub repositories: 11.7% vulnerable dependencies, comparable risk in active vs. inactive projects, and widespread reuse of flawed libraries (semver, Log4j). Releases the largest public dataset to date.</p>
+        </li>
+        <li>
+          <p class="pub-title"><a href="https://ieeexplore.ieee.org/document/10431636" target="_blank" rel="noopener">Mind the CORS</a></p>
+          <p class="pub-meta">Matteo Golinelli, Elham Arshad, <strong>Dmytro Kashchuk</strong>, Bruno Crispo · IEEE TPS-ISA 2023</p>
+          <p class="pub-abstract">Large-scale analysis of Cross-Origin Resource Sharing configurations across the Tranco Top 50k websites. Security flaws found in 29.4% of them, including real-world exploitable Denial of Service vectors.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>experience</h2>
+      <dl class="entries">
+        <dt>2024 – now</dt>
+        <dd>
+          <strong>Graduate Research Assistant</strong>
+          <span class="org">The University of Tulsa · Tulsa, OK, USA · part-time, on-site</span>
+        </dd>
+
+        <dt>2024 – 2025</dt>
+        <dd>
+          <strong>Cybersecurity Researcher</strong>
+          <span class="org">University of Trento · Trento, Italy</span>
+          <span class="note">Analyzed CORS flaws across the Tranco top 50k and built a Python scanner to detect misconfigurations that can lead to DoS.</span>
+        </dd>
+
+        <dt>2020 – 2021</dt>
+        <dd>
+          <strong>Embedded Systems Researcher</strong>
+          <span class="org">University of Trento · Trento, Italy</span>
+          <span class="note">Built a Raspberry Pi-based smartphone Wi-Fi detection system for disaster response, helping locate individuals during natural disasters.</span>
+        </dd>
+
+        <dt>2016</dt>
+        <dd>
+          <strong>Intern, Technology and Device Integration</strong>
+          <span class="org">Arcese Spa · Arco, Italy</span>
+          <span class="note">Migrated the company from BlackBerry to Nokia: provisioned phones and configured new network devices for speed, reliability and security.</span>
+        </dd>
+      </dl>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>projects</h2>
+      <dl class="entries">
+        <dt>2024</dt>
+        <dd>
+          <strong>Python Financial Planner</strong>
+          <span class="note">Expense categorization tool built on the Llama 3 model.</span>
+        </dd>
+
+        <dt>2022</dt>
+        <dd>
+          <strong>CRAWLER — Telegram Content Crawler</strong>
+          <span class="note">Monitors Telegram channels and uses deep learning to detect and flag graphic violent content, supporting national and international agencies.</span>
+        </dd>
+
+        <dt>2020</dt>
+        <dd>
+          <strong>LISTS — Java E-commerce Platform</strong>
+          <span class="note">Web-based e-commerce platform in JSP with real-time chat over WebSocket.</span>
+        </dd>
+      </dl>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>skills</h2>
+      <p class="label">languages</p>
+      <ul class="tags">
+        <li>Python</li>
+        <li>C#</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>R</li>
+      </ul>
+      <p class="label">currently learning</p>
+      <p>Advanced cybersecurity techniques, vulnerability scanning, and ethical hacking.</p>
+    </section>
+
+    <section id="misc" class="section">
+      <h2>misc</h2>
+      <ul class="plain">
+        <li>Capture The Flag enthusiast and Hack The Box participant</li>
+        <li>Investing in the stock market</li>
+        <li>Amateur soccer player</li>
+        <li>Exploring new places and unique adventures</li>
+        <li>Player in the TU League of Legends esports team</li>
+      </ul>
+      <p class="outro">Open to collaborating on cybersecurity projects and research — <a href="mailto:dmytro-kashchuk@utulsa.edu">say hi</a>.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
     <div class="container">
-        <img src="me.png" alt="img" class="img">
-        <br>
-        <br>
-        <p class="line-1 anim-typewriter">Hi everyone, my name is Dmytro, and i'm a web develper and security expert</p>
-        <br>
+      <p>© <span id="year"></span> Dmytro Kashchuk · plain html/css, no frameworks · <a href="https://github.com/DmytroKashchuk/dmytrokashchuk.github.io" target="_blank" rel="noopener">source</a></p>
     </div>
+  </footer>
 
-
-    <div class="container">
-
-    <h3>Personal information</h3>
-    <hr>
-    <div class="columns">
-        <div class="col1_left">
-            <p>Name</p>
-            <p>Address</p>
-        </div>
-
-        <div class="col2_right">
-            <p>Dmytro Kashchuk</p>
-            <p>Via Italiana</p>
-        </div>
-    </div>
-
-<!-- Work experience -->
-    <h3>Work experience</h3>
-    <hr>
-    <div class="columns">
-        <div class="col1_left">
-            <p>01/05/2015–07/06/2015</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-
-            
-            <p>20/09/2019–20/12/2019</p>
-            <p>.</p>
-            <p>.</p>
-           
-        </div>
-
-        <div class="col2_right">
-            <p>Internship</p>
-            <p>Arcese Trasporti S.P.A., Arco (TN) (Italy)</p>
-            <p> Configuration of smartphones for employers.</p>
-            <p>Mounting and configuration of network devices.</p>
-
-            
-            <p>Internship</p>
-            <p>Università degli studi di Trento, Trento (Italy)</p>
-            <p>Detection of WiFi devices using Raspberry PI</p>
-        </div>
-
-    </div>
-
-<!-- Work experience -->
-
-<h3>Work experience</h3>
-<hr>
-<div class="columns">
-    <div class="col1_left">
-        <p>01/05/2015–07/06/2015</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-
-        
-        <p>20/09/2019–20/12/2019</p>
-        <p>.</p>
-        <p>.</p>
-       
-    </div>
-
-    <div class="col2_right">
-        <p>Internship</p>
-        <p>Arcese Trasporti S.P.A., Arco (TN) (Italy)</p>
-        <p> Configuration of smartphones for employers.</p>
-        <p>Mounting and configuration of network devices.</p>
-
-        
-        <p>Internship</p>
-        <p>Università degli studi di Trento, Trento (Italy)</p>
-        <p>Detection of WiFi devices using Raspberry PI</p>
-    </div>
-
-</div>
-</div>
-<div class="banner"></div>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dmytro (Dima) Kashchuk",
+    "jobTitle": "Enterprise Security Researcher",
+    "email": "mailto:dmytro-kashchuk@utulsa.edu",
+    "url": "https://dmytrokashchuk.github.io/",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Tulsa" },
+    "sameAs": [
+      "https://github.com/DmytroKashchuk",
+      "https://scholar.google.com/citations?user=FnHJDDMAAAAJ&hl=en",
+      "https://linkedin.com/in/dmytrokashchuk",
+      "https://medium.com/@dmytrokashchuk",
+      "https://app.hackthebox.com/users/387680"
+    ]
+  }
+  </script>
+  <script src="./script.js"></script>
 </body>
-
-
 </html>
